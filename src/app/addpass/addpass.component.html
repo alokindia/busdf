@@ -1,0 +1,94 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="height=device-height, initial-scale=1.0">
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<div class="header">
+<h2>Application for BMTC Bus Pass</h2>
+</div>
+&nbsp; &nbsp; &nbsp; 
+<form class="addpass">
+ <div class="row">
+    <div class="col-sm-6 form-check form-check-inline">
+      <label class="form-check-label" id="label">Bus Type :</label>&nbsp; &nbsp; 
+        <input class="form-check-input" type="radio" name="bustype" id="AC" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">AC</label>
+        &nbsp; &nbsp; &nbsp; &nbsp; 
+        <input class="form-check-input" type="radio" name="bustype" id="NAC" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">NON AC</label>
+      </div>
+ </div> <br>
+ <div class="form-group row">
+    <div class="col-sm-5">
+      <label for="name" id="label" class="col-form-label">Name : </label>
+      <input type="email" class="form-control" id="name" placeholder="Enter Name">
+    </div><br>
+  </div>
+  <div class="form-group row">
+      <div class="col-sm-5">
+          <label for="fname" id="label" class=" col-form-label">Father's Name : </label>
+        <input type="email" class="form-control" id="fname" placeholder="Enter Father's Name">
+      </div><br>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-5">
+          <label for="fname" id="label" class=" col-form-label">Gender :  </label>&nbsp; &nbsp; 
+          <input type="radio" class="" name="gender" id="gender" value="male">
+          <label  for="male" class="">Male </label>
+          &nbsp; &nbsp; &nbsp; 
+          <input type="radio" class="" name="gender" id="gender" value="female">
+          <label id="label" for="female" class=" "> Female </label>
+        </div><br>
+      </div>
+      <div class="form-group row">
+          
+          <div class="col-sm-5">
+              <label for="fname" id="label" class="col-form-label">Address : </label>
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Enter Address">
+          </div><br>
+        </div>
+        <div class="form-group row">
+            
+            <div class="col-sm-5">
+                <label for="fname" id="label" class="col-form-label">Mobile : </label>
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Enter Mobile Number">
+            </div><br>
+          </div>
+          <div class="form-group row">
+             <div class="col-sm-5 form-group">
+                  <label for="categoryselect" id="label" class="col-form-label">Category : </label>
+                  <select class="custom-select form-control" id="categoryselect" required>
+                      <option value="">Select Category</option>
+                      <option value="middle_school">Middle School</option>
+                      <option value="high_school">High School</option>
+                      <option value="graduation">Graduation</option>
+                      <option value="post_graduation">Post Graduation</option>
+                      <option value="senior_citizen">Senior Citizen</option>
+                      <option value="govt_employee">Government Employee</option>
+                      <option value="general_citizen">General</option>
+                    </select>
+              </div><br>
+         
+
+            </div>
+            <div class="form-group row">
+                
+                <div class="col-sm-5 form-group">
+                    <label for="durationselect" id="label" class="col-form-label">Duration : </label>
+                    <select class="custom-select form-control " id="durationselect" required>
+                        <option value="">Select Duration</option>
+                        <option value="1_month">One Month</option>
+                        <option value="2_month">Two Months</option>
+                        <option value="3_month">Quaterly</option>
+                        <option value="6_month">Half Year</option>
+                        <option value="12_month">One Year</option>
+                      </select>
+                </div><br>
+              </div>
+
+ <button type="submit" class="btn btn-primary">Sumbit & Preview</button>
+ <br>
+</form>
+

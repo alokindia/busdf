@@ -1,0 +1,23 @@
+#footer{
+    height:10%;
+    bottom: 0;
+    width: 100%;
+    color: rgb(252, 250, 250);
+    padding: 15px;
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:	#800000;
+}
+
+#header {
+    color: rgb(252, 250, 250);
+    padding: 05px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:	#800000;
+
+}
+.row{
+    background-image: url("/PassManagement/src/assets/background2.jpg");
+}
